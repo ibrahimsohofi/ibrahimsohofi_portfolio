@@ -130,7 +130,7 @@ export default function Footer() {
                   href="mailto:ibrahim@example.com"
                   className="hover:text-foreground transition-colors"
                 >
-                  ibrahim@example.com
+                  sohofibrahim9@gmail.com
                 </a>
               </li>
               <li className="text-muted-foreground">Morocco</li>
@@ -143,9 +143,6 @@ export default function Footer() {
         <div className="text-center text-sm text-muted-foreground">
           <p>
             &copy; {new Date().getFullYear()} Ibrahim Sohofi. All rights reserved.
-          </p>
-          <p className="mt-2 flex items-center justify-center">
-            Made with <FaHeart className="h-4 w-4 text-primary mx-1" /> using Next.js & GSAP
           </p>
         </div>
       </div>

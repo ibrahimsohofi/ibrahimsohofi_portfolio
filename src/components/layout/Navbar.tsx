@@ -63,9 +63,9 @@ export default function Navbar() {
       <div className="container mx-auto px-4 flex  items-center justify-between">
         <Link
           href="/"
-          className="text-xl flex  gap-2 font-bold tracking-tight"
+          className="text-xl flex justify-center items-center    gap-2 font-bold tracking-tight"
         >
-          <img className="h-40" src="/images/logo.png" alt="website logo"/>
+          <img className="h-20" src="/images/logo.png" alt="website logo"/>
           Ibrahim<span className="text-primary">Sohofi</span>
         </Link>
 

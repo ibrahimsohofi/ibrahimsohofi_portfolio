@@ -65,7 +65,7 @@ export default function Navbar() {
           href="/"
           className="text-xl font-bold tracking-tight"
         >
-          <img src="/images/logo.png" alt="website logo"/>
+          <img className="h-10" src="/images/logo.png" alt="website logo"/>
           Ibrahim<span className="text-primary">Sohofi</span>
         </Link>
 
@@ -86,7 +86,7 @@ export default function Navbar() {
           ))}
           <Button size="sm">
             <a
-              href="mailto:ibrahim@example.com"
+              href="mailto:sohofibrahim9@gmail.com"
               className="text-sm"
             >
               Get In Touch

@@ -60,12 +60,12 @@ export default function Navbar() {
           : "bg-transparent py-4"
       )}
     >
-      <div className="container mx-auto px-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 flex  items-center justify-between">
         <Link
           href="/"
-          className="text-xl font-bold tracking-tight"
+          className="text-xl flex flex-col gap-2 font-bold tracking-tight"
         >
-          <img className="h-10" src="/images/logo.png" alt="website logo"/>
+          <img className="h-40" src="/images/logo.png" alt="website logo"/>
           Ibrahim<span className="text-primary">Sohofi</span>
         </Link>
 

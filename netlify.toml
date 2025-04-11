@@ -1,0 +1,21 @@
+[images]
+  remote_images = ["https://placehold.co/*"]
+
+[build]
+  command = "bun run build"
+  publish = "out"
+
+[build.environment]
+  NEXT_PUBLIC_SITE_URL = "https://ibrahim-sohofi-portfolio.netlify.app"
+
+[dev]
+  command = "bun run dev"
+  port = 3000
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/images/logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={cn(inter.className, "antialiased")}>

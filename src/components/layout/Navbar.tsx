@@ -65,7 +65,7 @@ export default function Navbar() {
           href="/"
           className="text-xl flex justify-center items-center    gap-2 font-bold tracking-tight"
         >
-          <img className="h-20" src="/images/logo.png" alt="website logo"/>
+          <img className="h-12" src="/images/logo.png" alt="website logo"/>
           Ibrahim<span className="text-primary">Sohofi</span>
         </Link>
 

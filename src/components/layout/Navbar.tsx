@@ -65,6 +65,7 @@ export default function Navbar() {
           href="/"
           className="text-xl font-bold tracking-tight"
         >
+          <img src="/images/logo.png" alt="website logo"/>
           Ibrahim<span className="text-primary">Sohofi</span>
         </Link>
 
@@ -117,7 +118,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <Button className="mt-4">
-                <a href="mailto:ibrahim@example.com">Get In Touch</a>
+                <a href="mailto:sohofibrahim9@gmail.com">Get In Touch</a>
               </Button>
             </nav>
           </SheetContent>

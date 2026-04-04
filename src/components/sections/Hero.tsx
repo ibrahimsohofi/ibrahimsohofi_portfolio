@@ -147,7 +147,7 @@ export default function Hero() {
                 className="relative w-full h-full rounded-full overflow-hidden border-4 border-primary/30"
               >
                 <Image
-                  src="/images/IMG.png"
+                  src="https://avatars.githubusercontent.com/u/78817932"
                   alt="Ibrahim Sohofi"
                   fill
                   className="object-cover"
